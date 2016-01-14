@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 void argumentUsage(char *myName){
     printf("Usage: %s [-a foo --b=bar]\n",myName);
     printf("-a  : foo\n");
